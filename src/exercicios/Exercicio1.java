@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Exercicio1 {
 
-	static final Scanner ENTRADA = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
 		double C, K, F, Re, Ra;
 
 		System.out.print("Digite o valor em graus Celsius: ");
-		C = ENTRADA.nextDouble();
+		C = entrada.nextDouble();
 
 		F = C * 1.8 + 32;
 		K = C + 273.15;

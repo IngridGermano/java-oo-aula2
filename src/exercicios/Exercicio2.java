@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Exercicio2 {
 
-	static final Scanner ENTRADA = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
 		double n1, n2, n3, n4, media;
 		
 		System.out.print("Digite o sálario do primeiro funcionário: ");
-		n1 = ENTRADA.nextDouble();
+		n1 = entrada.nextDouble();
 		System.out.print("Digite o sálario do segundo funcionário: ");
-		n2 = ENTRADA.nextDouble();
+		n2 = entrada.nextDouble();
 		System.out.print("Digite o sálario do terceiro funcionário: ");
-		n3 = ENTRADA.nextDouble();
+		n3 = entrada.nextDouble();
 		System.out.print("Digite o sálario do quarto funcionário: ");
-		n4 = ENTRADA.nextDouble();
+		n4 = entrada.nextDouble();
 
 		media = (n1 + n2 + n3 + n4) / 4;
 		System.out.println("A média salarial dos funcionários da empresa é de R$ " + media);
